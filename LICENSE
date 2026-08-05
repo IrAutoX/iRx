@@ -1,0 +1,77 @@
+IrAutoX Proprietary License
+Copyright (c) 2026 IrAutoX Development Team
+
+All Rights Reserved.
+
+1. Ownership
+
+IrAutoX, including but not limited to:
+- source code
+- binaries
+- client software
+- server software
+- SDK
+- APIs
+- documentation
+- branding
+- logos
+- names
+
+is the exclusive property of IrAutoX Development Team.
+
+2. Restrictions
+
+You are NOT allowed to:
+
+- Rename IrAutoX or any part of the software.
+- Create a modified client based on IrAutoX.
+- Create a new client pretending to be an official IrAutoX client.
+- Remove, hide, or modify copyright notices.
+- Reverse engineer, decompile, disassemble, or analyze the software.
+- Redistribute IrAutoX source code or binaries.
+- Sell, rent, sublicense, or provide IrAutoX as another product.
+- Claim ownership of IrAutoX or derivative projects.
+
+3. SDK Usage
+
+The IrAutoX SDK may only be used for:
+
+- Creating official extensions.
+- Creating plugins approved by IrAutoX.
+- Communicating with authorized IrAutoX services.
+
+SDK usage does NOT grant permission to:
+
+- Create a competing client.
+- Clone IrAutoX functionality.
+- Create unofficial forks.
+- Rebrand the SDK as another product.
+
+4. Client Protection
+
+Only official IrAutoX clients signed and distributed by IrAutoX Development Team are considered valid.
+
+Any unofficial client, modified client, or renamed client is unauthorized.
+
+5. Trademarks
+
+The name:
+
+"IrAutoX"
+
+and all related names, logos, trademarks, and identities belong exclusively to IrAutoX Development Team.
+
+No permission is granted to use these names without written approval.
+
+6. Termination
+
+Any violation of this license immediately terminates all granted permissions.
+
+7. No Warranty
+
+The software is provided "AS IS" without warranties.
+
+---
+
+IrAutoX Development Team
+2026
