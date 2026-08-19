@@ -1,0 +1,8 @@
+version=1.1.0
+title=iRx Update 1.1.0
+
+change1=Added Discord Rich Presence
+change2=Added New HUD System
+change3=Fixed Server Connection Bugs
+change4=Improved Performance
+change5=Added New Maps
