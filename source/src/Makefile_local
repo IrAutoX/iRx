@@ -1,0 +1,2 @@
+override CLIENT_OBJS += killfeed.o
+override CXXFLAGS += -Wl,--wrap=_Z10gl_drawhudiiiiibi -Wl,--wrap=_Z6dokillP10playerentS0_ib
