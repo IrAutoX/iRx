@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
       - name: Configure MSVC Win32
         shell: pwsh
         run: |
-          cmake -S . -B build -G "Visual Studio 18 2026" -A Win32 `
+          cmake -S . -B build -G "Visual Studio 17 2022" -A Win32 `
             "-DCMAKE_TOOLCHAIN_FILE=$env:VCPKG_INSTALLATION_ROOT/scripts/buildsystems/vcpkg.cmake" `
             -DVCPKG_TARGET_TRIPLET=x86-windows
 
