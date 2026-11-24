@@ -1,5 +1,5 @@
 #include "discord_presence.h"
-#include "discord/discord_rpc.h"
+#include "discord_rpc.h"
 
 #include <time.h>
 #include <string.h>
