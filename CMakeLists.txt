@@ -21,6 +21,16 @@ find_package(unofficial-enet CONFIG REQUIRED)
 find_package(OpenAL CONFIG REQUIRED)
 find_package(Vorbis CONFIG REQUIRED)
 
+include(FetchContent)
+set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+FetchContent_Declare(discord_rpc
+    GIT_REPOSITORY https://github.com/discord/discord-rpc.git
+    GIT_TAG e6390c8c4190b59f1cc98bcec688e0037b84974d
+    GIT_SHALLOW TRUE
+)
+FetchContent_MakeAvailable(discord_rpc)
+
 set(IRX_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/source/src")
 
 file(GLOB IRX_CLIENT_SOURCES CONFIGURE_DEPENDS
@@ -68,6 +78,7 @@ target_link_libraries(iRx PRIVATE
     unofficial::enet::enet
     OpenAL::OpenAL
     Vorbis::vorbisfile
+    discord-rpc
     ws2_32
     winmm
     winhttp
